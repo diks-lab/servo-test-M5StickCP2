@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  width: 600px;
+}
+
+.toolbox {
+  width: 100%;
+  margin: 20px auto;
+  padding: 10px;
+  border: 2px solid #777;
+  border-radius: 10px;
+  background-color: #eee;
+  text-align: center;
+}
+
+.tool-title {
+  width: 100%;
+  margin-bottom: 0px;
+  font-family: arial;
+  font-size: 24px;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.tool-title[status="off"] {
+  background-color: #777;
+  color: white;
+}
+
+.tool-title[status="on"] {
+  background-color: #099604;
+  color: white;
+}
+
+.tool-title[status="err"] {
+  background-color: red;
+  color: white;
+}
+
+.lblMessage {
+  margin-top: 4px;
+  height: 12px;
+  font-size: 12px;
+  text-align: center;
+  color: red;
+}
+
+#valUsec {
+  margin-top: 4px;
+  font-size: 38px;
+  text-align: center;
+}
+
+#rngUsec {
+  width: 90%;
+  margin: 10px 10px;
+}
+
+@media (max-width: 767px) {
+  body {
+    font-family: Helvetica;
+    width: 100%;
+  }
+
+  .toolbox {
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid #777;
+    border-radius: 10px;
+    background-color: #eee;
+    text-align: center;
+  }
+}

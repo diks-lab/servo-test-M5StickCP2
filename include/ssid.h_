@@ -1,0 +1,7 @@
+#ifndef _SSID_H_
+#define _SSID_H_
+
+#define SSID_NAME  "***************"
+#define SSID_KEY   "***************"
+
+#endif // _SSID_H_
