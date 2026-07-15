@@ -4,4 +4,3 @@
 .vscode/launch.json
 .vscode/ipch
 include/ssid.h
-src/idf_component.yml
